@@ -31,6 +31,7 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
      
      xeyes
      ```
+   - In future, Microsoft may release WSLg.
 5. Jupyter
    - [Install](https://towardsdatascience.com/configuring-jupyter-notebook-in-windows-subsystem-linux-wsl2-c757893e9d69) Miniconda.
 6. Julia
