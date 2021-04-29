@@ -16,7 +16,7 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
    - Set username and password.
    - Update Ubuntu.
      ```
-     sudo apt update && sudo apt upgrade && sudo apt autoremove -y)
+     sudo apt update && sudo apt upgrade && sudo apt autoremove -y
      ```
 3. Terminal
    - Install and launch Windows Terminal via Windows Store.
@@ -28,6 +28,7 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
    - Test vcxsrv.
      ```
      sudo apt-get install -y x11-apps
+     
      xeyes
      ```
 5. Jupyter
@@ -38,8 +39,9 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
    - [Add](https://datatofish.com/add-julia-to-jupyter/) Julia to Jupyter.
    - I like Julia's project environment management system. 
    - To use it, first navigate to the project directory. 
+   - If you are using Jupyter Notebook, I think the project environment is activated when it loads.
    - If you are using the Julia REPL, after launching just type
      ```
      ] activate .
      ```
-   - If you are using Jupyter Notebook, I think the project environment is activated when it loads.
+   
