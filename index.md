@@ -32,9 +32,9 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
      ```
 5. Jupyter
    - [Install](https://towardsdatascience.com/configuring-jupyter-notebook-in-windows-subsystem-linux-wsl2-c757893e9d69) Miniconda.
-7. Julia
+6. Julia
    - [Install](https://ferrolho.github.io/blog/2019-01-26/how-to-install-julia-on-ubuntu) Julia binaries.
-9. IJulia
+7. IJulia
    - [Add](https://datatofish.com/add-julia-to-jupyter/) Julia to Jupyter.
    - I like Julia's project environment management system. 
    - To use it, first navigate to the project directory. 
