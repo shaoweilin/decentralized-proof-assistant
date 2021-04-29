@@ -4,7 +4,9 @@ This project builds a basic proof assistant which is able to reason on proof mod
 
 It will save modules on [Solid](https://solidproject.org/) and use Coq as the type engine. The controller will be Julia because of the speed of compiled programs and the flexibility to write macros. We are also using Julia because there are some cool category theory projects (CatLab for instance) in Julia. Julia will play the role of the proof assistant, manipulating terms and calling Coq for type-checking. As the user interface, we will be using Jupyter Notebook as an interactive platform, rather than our own interactive website. In future, we will build other backends to replace Solid and Coq, and also develop frontends beyond Julia and Jupyter.
 
-## Setup for Windows
+## Setup
+
+### Windows
 
 WSL2 is a stable virtual environment developed for Windows that lets us develop software in a Linux system. Here are some suggestions for getting started.
 
