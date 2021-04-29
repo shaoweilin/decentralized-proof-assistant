@@ -8,7 +8,12 @@ It will save modules on [Solid](https://solidproject.org/) and use Coq as the ty
 
 WSL2 is a stable virtual environment developed for Windows that lets us develop software in a Linux system. Here are some suggestions for getting started.
 
-### WSL2.
-- [Uninstall](https://pureinfotech.com/uninstall-wsl2-windows-10/) old versions of WSL.
-- [Install](https://docs.microsoft.com/en-us/windows/wsl/install-win10) new version of WSL2.
-
+1. WSL2
+   - [Uninstall](https://pureinfotech.com/uninstall-wsl2-windows-10/) old versions of WSL.
+   - [Install](https://docs.microsoft.com/en-us/windows/wsl/install-win10) new version of WSL2.
+2. Ubuntu
+3. Terminal
+4. XWindows
+5. Jupyter
+6. Julia
+7. Link Julia with Jupyter
