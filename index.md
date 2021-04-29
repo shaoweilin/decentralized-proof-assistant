@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Goal
 
-You can use the [editor on GitHub](https://github.com/shaoweilin/decentralized-proof-assistant/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This project builds a basic proof assistant which is able to reason on proof modules from a decentralized network of containers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It will save modules on [Solid](https://solidproject.org/) and use Coq as the type engine. The controller will be Julia because of the speed of compiled programs and the flexibility to write macros. We are also using Julia because there are some cool category theory projects (CatLab for instance) in Julia. Julia will play the role of the proof assistant, manipulating terms and calling Coq for type-checking. As the user interface, we will be using Jupyter Notebook as an interactive platform, rather than our own interactive website. In future, we will build other backends to replace Solid and Coq, and also develop frontends beyond Julia and Jupyter.
 
-### Markdown
+## Setup for Windows
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+WSL2 is a stable virtual environment developed for Windows that lets us develop software in a Linux system. Here are some suggestions for getting started.
 
-```markdown
-Syntax highlighted code block
+### WSL2.
+- [Uninstall](https://pureinfotech.com/uninstall-wsl2-windows-10/) old versions of WSL.
+- [Install](https://docs.microsoft.com/en-us/windows/wsl/install-win10) new version of WSL2.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shaoweilin/decentralized-proof-assistant/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
