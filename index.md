@@ -34,17 +34,35 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
      xeyes
      ```
    - In future, Microsoft may release WSLg.
-5. Jupyter
+
+## Installation
+
+1. Jupyter
    - [Install](https://towardsdatascience.com/configuring-jupyter-notebook-in-windows-subsystem-linux-wsl2-c757893e9d69) Miniconda.
-6. Julia
+2. Julia
    - [Install](https://ferrolho.github.io/blog/2019-01-26/how-to-install-julia-on-ubuntu) Julia binaries.
-7. Add Julia to Jupyter
+3. Add Julia to Jupyter
    - [Install](https://datatofish.com/add-julia-to-jupyter/) IJulia.
+
+## Experiments
+
+### 20210427-solid-access
+
    - I like Julia's project environment management system. 
    - To use it, first navigate to the project directory. 
-   - If you are using Jupyter Notebook, I think the project environment is activated when it loads.
-   - If you are using the Julia REPL, after launching just type
+   - Launch the Julia REPL.
+   - Start the package mode by typing ``]``.
+   - Generate the project environment.
      ```
-     ] activate .
+     activate .
      ```
+   - Install the following packages required for the experiment.
+     ```
+     add HTTP JSON PyCall
+     ```
+   - Exit the Julia REPL.
+   - Start Jupyter Notebook in the project directory.
+   - The project environment is activated when Jupyter loads.
+   - Load the file "20210427-solid-access.ipynb" from the experiments folder.
+
    
