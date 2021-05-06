@@ -1,3 +1,9 @@
+# Based on
+# https://gitlab.com/agentydragon/solid-flask/-/blob/master/solid_flask_main.py
+
+# This implementation is not secure.
+# Many required cryptographic checks were ignored.
+
 using HTTP
 using JSON
 using Base64
