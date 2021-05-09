@@ -34,6 +34,14 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
      xeyes
      ```
    - In future, Microsoft may release WSLg.
+5. Git and VSCode
+   - Already installed in WSL2.
+   - [Set up](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) config file and credentials manager.
+   - [Clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) your repository inside your projects folder.
+6. VS Code
+   - [Install](https://code.visualstudio.com/download) VS Code.
+   - [Install](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) Remote - WSL extension.
+   - [Initialize](https://code.visualstudio.com/blogs/2019/09/03/wsl2) VS Code inside your repository folder.
 
 ## Installation
 
