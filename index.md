@@ -67,6 +67,15 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
    - Note that ``opam-depext`` needs to be run first.
 7. MathComp
    - [Install](https://coq.inria.fr/opam-using.html) MathComp.
+8. VSCoq
+   - A good alternative to CoqIDE.
+   - Run ``code .`` from any WSL2 folder.
+   - [Install](https://github.com/coq-community/vscoq) VSCoq extension in VS Code.
+   - Specify the path to coqtop, e.g.
+     ```
+     "coqtop.binPath": "/home/<username>/.opam/4.12.0/bin/"
+     ```
+   - Restart VS Code for changes to take effect.
 
 ## Experiments
 
