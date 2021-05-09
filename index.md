@@ -27,7 +27,7 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
 4. XWindows
    - [Install](https://github.com/affeldt-aist/mathcomp-install/blob/master/install-windows-en.org) vcxsrv.
    - Save config to desktop for easy launch.
-   - Test vcxsrv.
+   - Test vcxsrv. 
      ```
      sudo apt-get install -y x11-apps
      
