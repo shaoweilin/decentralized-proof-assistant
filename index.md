@@ -54,7 +54,7 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
 4. OPAM
    - [Install](https://github.com/affeldt-aist/mathcomp-install/blob/master/install-windows-en.org) OPAM.
    - [Say](http://ace.cs.ohio.edu/~gstewart/courses/4100-16/hw/0.html) yes to modifying profile and adding hook during ``opam init``.
-   - [Run](https://ocaml.org/docs/install.html) ``eval $(opam env)`` after initialization and after switch creation.
+   - [Run](https://ocaml.org/docs/install.html) ``eval $(opam env)`` after every ``opam`` command (for Coq, CoqIDE, MathComp installations too).
 5. Coq
    - [Install](https://coq.inria.fr/opam-using.html) Coq.
    - Note that ``opam-depext`` needs to be installed and run first.
