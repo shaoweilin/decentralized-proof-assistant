@@ -51,6 +51,18 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
    - [Install](https://ferrolho.github.io/blog/2019-01-26/how-to-install-julia-on-ubuntu) Julia binaries.
 3. Add Julia to Jupyter
    - [Install](https://datatofish.com/add-julia-to-jupyter/) IJulia.
+4. OPAM
+   - [Install](https://github.com/affeldt-aist/mathcomp-install/blob/master/install-windows-en.org) OPAM.
+   - [Say](http://ace.cs.ohio.edu/~gstewart/courses/4100-16/hw/0.html) yes to modifying profile and adding hook during ``opam init``.
+   - [Run](https://ocaml.org/docs/install.html) ``eval $(opam env)`` after initialization and after switch creation.
+5. Coq
+   - [Install](https://coq.inria.fr/opam-using.html) Coq.
+   - Note that ``opam-depext`` needs to be installed and run first.
+6. CoqIDE
+   - [Install](https://coq.inria.fr/opam-using.html) CoqIDE.
+   - Note that ``opam-depext`` needs to be run first.
+7. MathComp
+   - [Install](https://coq.inria.fr/opam-using.html) MathComp.
 
 ## Experiments
 
