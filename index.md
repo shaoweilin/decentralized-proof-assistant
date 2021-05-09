@@ -60,11 +60,11 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
    - Note that ``opam-depext`` needs to be installed and run first.
 6. CoqIDE
    - [Install](https://coq.inria.fr/opam-using.html) CoqIDE.
-   - [Install] ``gnome-icon-theme`` for CoqIDE icons.
+   - Note that ``opam-depext`` needs to be run first.
+   - Install ``gnome-icon-theme`` for CoqIDE icons.
      ```
      sudo apt-get install -y gnome-icon-theme
      ```
-   - Note that ``opam-depext`` needs to be run first.
 7. MathComp
    - [Install](https://coq.inria.fr/opam-using.html) MathComp.
 8. VSCoq
