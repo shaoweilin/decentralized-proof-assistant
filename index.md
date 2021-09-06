@@ -76,6 +76,7 @@ WSL2 is a stable virtual environment developed for Windows that lets us develop 
      "coqtop.binPath": "/home/<username>/.opam/4.12.0/bin/"
      ```
    - Restart VS Code for changes to take effect.
+   - Coq ``.v`` filenames cannot start with numbers and cannot contain dashes.
 9. Node.js
    -[Install](https://github.com/nvm-sh/nvm#install--update-script) nvm.
    -[Install](https://github.com/nvm-sh/nvm#usage) node using nvm.
